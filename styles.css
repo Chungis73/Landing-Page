@@ -1,12 +1,28 @@
 *{
     box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 header{
+    font-family: "Roboto", sans-serif;
+    background-color: #1F2937;
     height: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+li > a{
+    font-family: "Roboto", sans-serif;
+    color:#F9FAF8;
+}
+
+h3{
+    width: 100%;
+    font-size: 24px;
+    color: #F9FAF8;
+    display:flex;
+    align-items: center;
 }
 
 nav{
@@ -28,28 +44,60 @@ li{
     list-style: none;
     display:flex;
     justify-content: right;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 section.awesome{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
+    height: 400px;
+    width:30%;
 }
+
+h1{
+    padding:0;
+    font-size:48px;
+    font-weight: 800;
+}
+
+section.awesome > span{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 section.awesome button{
-    width: 9%;
+    width:fit-content;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border:none;
 }
-#placeholder{
+.placeholder{
     display:flex;
+    height: 66.75%;
     width: 30%;
+    color: #F9FAF8;
+    background-color: gray;
 }
 section.buttonimage{
     display:flex;
     justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 600px;
 }
 h2{
     display:flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: 800px;
+    color: #1F2937;
 }
 div{
-    height: 300px;
+    height: 400px;
     display:flex;
     justify-content: center;
 }
@@ -60,55 +108,97 @@ div section{
     justify-content: center;
     align-items: center;
 }
+    
 section p{
-    border: 2px solid black;
     height: 200px; 
     display:flex;
     justify-content: center;
     align-items: center;
 }
 section.thor{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
 }
 body > section > span{
     display:flex;
     justify-content: right;
 }
 .beforeaction{
-    border: 2px solid black;
     height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+section.beforeaction button{
+    background-color:#3882F6;
+    color: #F9FAF8;
+    border:2px solid #E5E7EB;
+    border-radius: 5px;
+    
+}
 .action{
-    height: 100px;
+    height: 125px;
+    width: 60%;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    color:#E5E7EB;
+}
+h4{
+    margin:0;
+    padding:0;
+}
+section.afteraction{
+    display:flex;
+    flex-direction: column;
+   
+}
+section.afteraction > button{
+    border: 2px solid black;
 }
 footer{
-    border: 2px solid black;
-    text-align: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    height: 75px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+section.thor{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 section.thor > span{
     height:100px;
-    width:80%;
+    width:60%;
+    font-weight: bold;
 }
+section.thor > p{
+    height: 300px;
+    width: 60%;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
 section.awesome, img#placeholder{
-    display:flex;
-    border: 2px solid black;   
+    display:flex; 
 }
 div > section > img{
-    border: 3px solid blue;
-    height: 100px;
+    border: 3px solid #3882F6;
+    height: 200px;
     display:flex;
-    width: 30%;
+    width: 200px;
+    border-radius: 25px;
 }
 
 div > section{
-    border: 2px solid black;
-    width: 15%;
     display:flex;
     justify-content: center;
+    width: 20%;
 }
