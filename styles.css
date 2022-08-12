@@ -1,0 +1,82 @@
+*{
+    box-sizing:border-box;
+}
+
+header{
+    height: 50px;
+}
+
+nav{
+    display:flex;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    width:100%;
+    display: flex;
+    justify-content: right;
+}
+
+li{
+    width:25%;
+    list-style: none;
+}
+section.awesome{
+    height: 300px;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+section.awesome button{
+   width: 5.1%;
+}
+#placeholder{
+    display:flex;
+    justify-content: right;
+    width:50%;
+}
+section.buttonimage{
+    display:flex;
+    width: 100%;
+}
+h2{
+    display:flex;
+    justify-content: center;
+}
+div{
+    height: 300px;
+    display:flex;
+    justify-content: space-around;
+}
+div section{
+    width: 25%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+section p{
+    height: 300px;
+    text-align: center;   
+}
+section.thor{
+    display: flex;
+    flex-direction: column;
+}
+body > section > span{
+    display:flex;
+    justify-content: right;
+}
+.beforeaction{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.action{
+    height: 100px;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
